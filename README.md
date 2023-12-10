@@ -6,10 +6,15 @@ I had just made myself breakfast, when I grabbed the tv remote and put on the Yo
 
 ## Are you tired of being tracked, bombarded with ads and being robbed of your valuable time?
 
+https://www.webosbrew.org/
+
+Trying to [root](https://rootmy.tv/) my LG webOS didn't succeed.
+
 Source
 https://www.reddit.com/r/LGOLED/comments/wzs6hg/adfree_youtube_webos_app/
 
 
 - [Dev-manager-desktop](https://github.com/webosbrew/dev-manager-desktop) - Device/DevMode Manager for webOS TV
 
+- [Dev-goodies](https://github.com/webosbrew/dev-goodies)
 
