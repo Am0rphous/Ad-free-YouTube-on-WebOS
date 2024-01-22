@@ -6,6 +6,8 @@ I had just made myself breakfast, when I grabbed the tv remote and put on the Yo
 
 ## Are you tired of being tracked, bombarded with ads and being robbed of your valuable time?
 
+The capitalistic money-focused advertising industry is discusting - https://www.reddit.com/r/youtube/comments/ko7r3e/just_why_does_youtube_has_to_run_ads_in_front_of/
+
 https://www.webosbrew.org/
 
 Trying to [root](https://rootmy.tv/) my LG webOS didn't succeed.
