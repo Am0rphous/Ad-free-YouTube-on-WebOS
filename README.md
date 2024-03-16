@@ -9,6 +9,10 @@ I had just made myself breakfast, when I grabbed the tv remote and put on the Yo
 The capitalistic money-focused advertising industry is discusting:
 ![alternativ tekst](https://preview.redd.it/mvemxjb7nm861.jpg?width=1080&crop=smart&auto=webp&s=39e1581c42d32eb1ddbb27011194dd1de470cbd4){ width=50% }
 
+
+<img src="https://preview.redd.it/mvemxjb7nm861.jpg?width=1080&crop=smart&auto=webp&s=39e1581c42d32eb1ddbb27011194dd1de470cbd4" alt="alternativ tekst" width="500" height="auto">
+
+
 https://www.reddit.com/r/youtube/comments/ko7r3e/just_why_does_youtube_has_to_run_ads_in_front_of/
 
 https://www.webosbrew.org/
