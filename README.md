@@ -6,7 +6,10 @@ I had just made myself breakfast, when I grabbed the tv remote and put on the Yo
 
 ## Are you tired of being tracked, bombarded with ads and being robbed of your valuable time?
 
-The capitalistic money-focused advertising industry is discusting - https://www.reddit.com/r/youtube/comments/ko7r3e/just_why_does_youtube_has_to_run_ads_in_front_of/
+The capitalistic money-focused advertising industry is discusting:
+![alternativ tekst](https://preview.redd.it/mvemxjb7nm861.jpg?width=1080&crop=smart&auto=webp&s=39e1581c42d32eb1ddbb27011194dd1de470cbd4)
+
+https://www.reddit.com/r/youtube/comments/ko7r3e/just_why_does_youtube_has_to_run_ads_in_front_of/
 
 https://www.webosbrew.org/
 
