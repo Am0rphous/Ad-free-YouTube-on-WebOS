@@ -11,6 +11,7 @@ The capitalistic money-focused advertising industry is discusting:
   <img src="https://preview.redd.it/mvemxjb7nm861.jpg?width=1080&crop=smart&auto=webp&s=39e1581c42d32eb1ddbb27011194dd1de470cbd4" alt="Its disgusting" width="700" style="display:block; margin:auto;">
 </p>
 
+Solution: Install webOS Homebrew
 
 https://www.webosbrew.org/
 
