@@ -9,7 +9,7 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 1. Go to [LG's homepage](https://us.lgaccount.com/login/sign_in) and create a developer account.
 2. Download and install LG's app called **Developer Mode** which you'll find in the TVs app store.
 3. Now log into your developer account.
-4. Enable `Dev Mode Status` and `Key Server`. Write down IP and passphrase.
+4. Enable `Dev Mode` and `Key Server`. Write down IP and passphrase.
 5. Use your computer and download and install the app [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).
 6. On the computer, open the app and click `Add Device` to the left. Follow the instructions, which will make you connect to your LG TV.
 7. After that you have a connection, click on `Apps`and install the [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel).
