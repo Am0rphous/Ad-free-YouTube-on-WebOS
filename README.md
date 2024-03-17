@@ -6,25 +6,25 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 
 ## Are you tired of being tracked, bombarded with ads and being robbed of your valuable time?
 
-Download and install [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop) which let's you install [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel)
+1. Go to [LG's homepage](https://us.lgaccount.com/login/sign_in) and create an developer account, which we need to log into the developer app.
+2. Download and install LG's app called **Developer Mode** which you'll find in the TVs app store.
+3. Now log into your developer account.
+4. Enable `Dev Mode Status` and `Key Server`. Write down IP and passphrase.
+5. Use your computer and download and install the app [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).
+6. On the computer, open the app and click `Add Device` to the left. Follow the instructions, which will make you connect to your LG TV.
+7. After that you have a connection, click on `Apps`and install the [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel).
+8. Then install `YouTube AdFree` and voilá, congrats!
 
+<br>
 
 The capitalistic money-focused advertising industry is discusting:
 <p>
   <img src="https://preview.redd.it/mvemxjb7nm861.jpg?width=1080&crop=smart&auto=webp&s=39e1581c42d32eb1ddbb27011194dd1de470cbd4" alt="Its disgusting" width="700" style="display:block; margin:auto;">
 </p>
 
-Solution: Install webOS Homebrew
+You might also try rooting your TV to get more access and control over your TV. You can try [https://rootmy.tv)](https://rootmy.tv) but I dind't have any success using the exploit. I suspect my TV has been patched.
 
-https://www.webosbrew.org/
-
-Trying to [root](https://rootmy.tv/) my LG webOS didn't succeed.
-
-Source
-https://www.reddit.com/r/LGOLED/comments/wzs6hg/adfree_youtube_webos_app/
-
-
-- [Dev-manager-desktop](https://github.com/webosbrew/dev-manager-desktop) - Device/DevMode Manager for webOS TV
-
-- [Dev-goodies](https://github.com/webosbrew/dev-goodies)
+Other stuff:
+- [script 1 - reset devmode timer](https://github.com/webosbrew/dev-goodies) - archived
+- [script 2 - reset devmode timer](https://github.com/webosbrew/dev-utils/blob/main/scripts/devmode-reset.sh)
 
