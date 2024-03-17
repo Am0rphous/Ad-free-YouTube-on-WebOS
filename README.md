@@ -19,7 +19,7 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 
 The capitalistic money-focused advertising industry is discusting:
 <p>
-  <img src="https://preview.redd.it/mvemxjb7nm861.jpg?width=1080&crop=smart&auto=webp&s=39e1581c42d32eb1ddbb27011194dd1de470cbd4" alt="Its disgusting" width="700" style="display:block; margin:auto;">
+  <img src="https://preview.redd.it/mvemxjb7nm861.jpg?width=1080&crop=smart&auto=webp&s=39e1581c42d32eb1ddbb27011194dd1de470cbd4" alt="Its disgusting" width="500" style="display:block; margin:auto;">
 </p>
 
 You might also try rooting your TV to get more access and control over your TV. You can try [https://rootmy.tv)](https://rootmy.tv) but I dind't have any success using the exploit. I suspect my TV has been patched.
