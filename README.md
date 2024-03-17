@@ -6,7 +6,7 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 
 ## Are you tired of being tracked, bombarded with ads and being robbed of your valuable time?
 
-1. Go to [LG's homepage](https://us.lgaccount.com/login/sign_in) and create an developer account, which we need to log into the developer app.
+1. Go to [LG's homepage](https://us.lgaccount.com/login/sign_in) and create a developer account.
 2. Download and install LG's app called **Developer Mode** which you'll find in the TVs app store.
 3. Now log into your developer account.
 4. Enable `Dev Mode Status` and `Key Server`. Write down IP and passphrase.
