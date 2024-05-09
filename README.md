@@ -11,7 +11,7 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 3. Now log into your developer account.
 4. Enable `Dev Mode` and `Key Server`. Write down IP and passphrase.
 5. Use your computer and download and install the app [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).
-6. On the computer, open the app and click `Add Device` to the left. Follow the instructions, which will make you connect to your LG TV.
+6. On the computer, open the app and click `Add Device` to the left. Follow the instructions, which will make you connect to your LG TV. (May 2024: look at known issues further down if you get connection timeout)
 7. After that you have a connection, click on `Apps`and install the [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel).
 8. Then install `YouTube AdFree` and voilá, congrats!
 
