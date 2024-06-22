@@ -9,10 +9,10 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 1. Go to [LG's homepage](https://us.lgaccount.com/login/sign_in) and create a developer account.
 2. Download and install LG's app called **Developer Mode** which you'll find in the TVs app store.
 3. Now log into your developer account.
-4. Enable `Dev Mode` and `Key Server`. Write down IP and passphrase.
-5. Use your computer and download and install the app [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).
+4. Enable `Dev Mode` and reboot. Then enable `Key Server`. Write down IP and passphrase.
+5. Use your computer and download and install [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).
 6. On the computer, open the app and click `Add Device` to the left. Follow the instructions, which will make you connect to your LG TV. (May 2024: look at known issues further down if you get connection timeout)
-7. After that you have a connection, click on `Apps`and install the [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel).
+7. After that you have a connection, click on `Apps` and install the [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel).
 8. Then install `YouTube AdFree` and voilá, congrats!
 
 <br>
@@ -29,8 +29,14 @@ Other stuff:
 - [script 2 - reset devmode timer](https://github.com/webosbrew/dev-utils/blob/main/scripts/devmode-reset.sh)
 
 ### Known issues per May 2024
-- You might get an error when connecting to the TV through the webOS Dev Manager software (it just hangs). And if you SSH in a terminal with e.g. `ssh prisoner@10.0.0.20 -p 9922` it says `Unable to negotiate with 10.0.0.20 port 9922: no matching host key type found. Their offer: ssh-rsa`. To fix that on macOS/Linux do the following:
-1. Create/open the ssh config file with: `nano ~/.ssh/config`
+- You might get an error when connecting to the TV through the webOS Dev Manager software (it just hangs). And if you SSH in a terminal with e.g. `ssh prisoner@youriphere -p 9922` it says `Unable to negotiate with 10.0.0.20 port 9922: no matching host key type found. Their offer: ssh-rsa`. To fix that on macOS/Linux do the following:
+1. Create/open the ssh config file with: `nano ~/.ssh/config` in the Terminal
 2. Add the content `HostkeyAlgorithms +ssh-rsa` and save the file `ctrl+x` and `enter`
+  - You also might add `PubkeyAcceptedKeyTypes ssh-rsa,ssh-ed25519` to the config file
 3. Add correct file permissions with `chmod 600 ~/.ssh/config`
-4. Do SSH or try again with the webOS Dev Manager Software and it should work. Cheers!
+4. Try SSH or with the webOS Dev Manager Software and it should work. Cheers!
+
+#### tips
+- you can get the private key by opening `http://ipaddresshere:9991/webos_rsa` in your browser
+- When doing ssh, add `-v` to the command to give verbose output. Use AI to help understand the output.
+- Another resource that might be helpful [Key server is ON but Dev manager can't fetch](https://github.com/webosbrew/dev-manager-desktop/issues/165)
