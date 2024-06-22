@@ -32,7 +32,7 @@ Other stuff:
 - You might get an error when connecting to the TV through the webOS Dev Manager software (it just hangs). And if you SSH in a terminal with e.g. `ssh prisoner@youriphere -p 9922` it says `Unable to negotiate with 10.0.0.20 port 9922: no matching host key type found. Their offer: ssh-rsa`. To fix that on macOS/Linux do the following:
 1. Create/open the ssh config file with: `nano ~/.ssh/config` in the Terminal
 2. Add the content `HostkeyAlgorithms +ssh-rsa` and save the file `ctrl+x` and `enter`
-    - You also might add `PubkeyAcceptedKeyTypes ssh-rsa,ssh-ed25519` to the config file
+    - June 2024: You might also need to add `PubkeyAcceptedKeyTypes ssh-rsa,ssh-ed25519` to the config file
 3. Add correct file permissions with `chmod 600 ~/.ssh/config`
 4. Try SSH or with the webOS Dev Manager Software and it should work. Cheers!
 
