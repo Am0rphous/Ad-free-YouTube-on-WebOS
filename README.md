@@ -1,7 +1,7 @@
 # Ad-free YouTube on WebOS
 _This information is just a rewrite of information given by user [Cr3z33-71](https://www.reddit.com/r/LGOLED/comments/wzs6hg/adfree_youtube_webos_app/) on reddit. Credits goes to you!_
 
-Background: I had just made myself breakfast, when I grabbed the tv remote and put on the YouTube app on my LG TV. YouTube is fantastic for watching and learning all sorts of information. In todays society everything we need is on YouTube. After selecting my video, I expected the video to begin after an ad. Ads usually last between ten and fifteen seconds, which is annoying but fair enough. In recent times (december 2023) YouTube has now decided to force 30 seconds of ads when using the free version of YouTube on LG TVs. After traveling home i discovered the ads lasts 40 and even 50 seconds, without the options to skip any time. This is robbing people of their time while providing nothing in return. This is totally unacceptable.
+Background: I had just made myself breakfast, when I grabbed the tv remote and put on the YouTube app on my LG TV. YouTube is fantastic for watching and learning all sorts of information. In todays society everything we need is on YouTube. After selecting my video, I expected the video to begin after an ad. Ads usually last between ten and fifteen seconds, which is annoying but fair enough. In recent times (december 2023) YouTube has now decided to force 40-60 seconds of ads when using the free version of YouTube on LG TVs. After traveling home i discovered the ads also lasted between 40-60 seconds, without the options to skip any time. This is robbing people of their time while providing nothing in return. This is totally unacceptable.
 
 
 ## Are you tired of being tracked, bombarded with ads and being robbed of your valuable time?
@@ -13,7 +13,8 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 5. Use your computer and download and install [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).
 6. On the computer, open the app and click `Add Device` to the left. Follow the instructions, which will make you connect to your LG TV. (May 2024: look at known issues further down if you get connection timeout)
 7. After that you have a connection, click on `Apps` and install the [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel).
-8. Then install `YouTube AdFree` and voilá, congrats!
+8. Then install `YouTube AdFree` and voilá! If you want to check out their source code, click [here](https://github.com/webosbrew/youtube-webos).
+
 
 <br>
 
