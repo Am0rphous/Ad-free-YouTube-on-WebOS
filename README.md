@@ -38,6 +38,11 @@ Other stuff:
 4. Try SSH or with the webOS Dev Manager Software and it should work. Cheers!
 
 #### tips
-- you can get the private key by opening `http://ipaddresshere:9991/webos_rsa` in your browser
+- Be patient and try more.
+- you can get the private key by opening `http://ipaddresshere:9991/webos_rsa` in your browser. Use it with e.g.
+````
+chmod 700 Downloads/webos_rsa    #we need to update permissions on the key
+ssh -v prisoner@10.0.0.11 -p 9922 -i Downloads/webos_rsa  #Example
+````
 - When doing ssh, add `-v` to the command to give verbose output. Use AI to help understand the output.
 - Another resource that might be helpful [Key server is ON but Dev manager can't fetch](https://github.com/webosbrew/dev-manager-desktop/issues/165)
