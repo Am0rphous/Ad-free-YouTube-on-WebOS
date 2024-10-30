@@ -1,10 +1,11 @@
 # Ad-free YouTube on WebOS
 _This information is just a rewrite of information given by user [Cr3z33-71](https://www.reddit.com/r/LGOLED/comments/wzs6hg/adfree_youtube_webos_app/) on reddit. Credits goes to you!_
 
-Background: I had just made myself breakfast, when I grabbed the tv remote and put on the YouTube app on my LG TV. YouTube is fantastic for watching and learning all sorts of information. In todays society everything we need is on YouTube. After selecting my video, I expected the video to begin after an ad. Ads usually last between ten and fifteen seconds, which is annoying but fair enough. In recent times (december 2023) YouTube has now decided to force 40-60 seconds of ads when using the free version of YouTube on LG TVs. After traveling home i discovered the ads also lasted between 40-60 seconds, without the options to skip any time. This is robbing people of their time while providing nothing in return. This is totally unacceptable.
+Background: I had just made myself breakfast, when I grabbed the tv remote and put on the YouTube app on my LG TV. YouTube is fantastic for watching and learning all sorts of information. In todays society everything we need is on YouTube. After selecting my video, I expected the video to begin after an ad. Ads usually last between ten and fifteen seconds, which is annoying but fair enough. In recent times (december 2023) YouTube decided to force 40-60 seconds of ads when using the free version of YouTube on LG TVs. After traveling home i discovered the ads also lasted between 40-60 seconds, without the options to skip any time. This is robbing people of their time while providing nothing in return.
 
+## Do you want to save valuable time? Try this
 
-## Are you tired of being tracked, bombarded with ads and being robbed of your valuable time?
+This assumes you have a LG TV.
 
 1. Go to [LG's homepage](https://us.lgaccount.com/login/sign_in) and create a developer account.
 2. Download and install LG's app called **Developer Mode** which you'll find in the TVs app store.
@@ -19,7 +20,7 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 
 October 2024: There is some issues with the above method. I got something a la "unable to get local issuer certificate". My solution was to connect throug the webOS Dev Manager software, open the terminal and run this one liner: `curl -L https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/tools/install.sh | sh -`. This installed Homebrew on the TV. I couldn't install any app on the tv menu, but had to do it throug the webOS Dev Manager on my computer. There is a [issue](https://github.com/webosbrew/dev-manager-desktop/issues/259) on this matter. Cheers.
 
-<br><br>
+<br>
 
 The capitalistic money-focused advertising industry is discusting:
 <p>
