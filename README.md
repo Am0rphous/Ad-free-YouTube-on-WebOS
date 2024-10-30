@@ -17,7 +17,7 @@ Background: I had just made myself breakfast, when I grabbed the tv remote and p
 
 <br>
 
-30. October 2024: There is some issues with the above method. I got something a la "unable to get local issuer certificate". My solution was to connect throug the webOS Dev Manager software, open the terminal and run this one liner: `curl -L https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/tools/install.sh | sh -`. This installed Homebrew on the TV. I couldn't install any app on the tv menu, but had to do it throug the webOS Dev Manager on my computer. There is a [issue](https://github.com/webosbrew/dev-manager-desktop/issues/259) on this matter. Cheers.
+October 2024: There is some issues with the above method. I got something a la "unable to get local issuer certificate". My solution was to connect throug the webOS Dev Manager software, open the terminal and run this one liner: `curl -L https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/tools/install.sh | sh -`. This installed Homebrew on the TV. I couldn't install any app on the tv menu, but had to do it throug the webOS Dev Manager on my computer. There is a [issue](https://github.com/webosbrew/dev-manager-desktop/issues/259) on this matter. Cheers.
 
 <br><br>
 
