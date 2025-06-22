@@ -1,7 +1,7 @@
 # Reset Dev Move
 
 - Enable dev mode + key server
-- After ~2 months the dev timer will run out, and since this is dev mode, the youtube app will be uninstalled. To stop that we reset the dev mode timer.
+- After 1000 hours = 41 days the dev timer will run out, and since this is dev mode, the youtube app will be uninstalled >:(. To stop that we auto reset the dev timer >:).
 - Original script: [https://github.com/webosbrew/dev-utils/blob/main/scripts/devmode-reset.sh](https://github.com/webosbrew/dev-utils/blob/main/scripts/devmode-reset.sh)
 - Lets imagine the TVs IP is `10.0.0.40`
 
