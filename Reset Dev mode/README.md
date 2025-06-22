@@ -5,6 +5,7 @@
 - Original script: [https://github.com/webosbrew/dev-utils/blob/main/scripts/devmode-reset.sh](https://github.com/webosbrew/dev-utils/blob/main/scripts/devmode-reset.sh)
 - Lets imagine the TVs IP is `10.0.0.40`
 
+<br>
 
 1. Log into a Linux server/router or something. Enter `crontab -e` and click enter. Lets configure update every 19th hour (19:00 = 7pm) on the first, second and third day of the week.
 ````shell
