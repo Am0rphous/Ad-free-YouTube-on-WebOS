@@ -40,25 +40,25 @@ checkSession=$(curl --max-time 3 "https://developer.lge.com/secure/ResetDevModeS
 
 echo "$checkSession"
 ````
-Make the script executable
+4. Make the script executable
 ````shell
 chmod +x /root/update-lg-session-token.sh
 ````
-Make config file with `nano /root/.ssh/config` or else we might have problem with using ssh into the tv:
+5. Make config file with `nano /root/.ssh/config` or else we might have problem with using ssh into the tv:
 ````shell
 HostkeyAlgorithms +ssh-rsa
 PubkeyAcceptedKeyTypes ssh-rsa,ssh-ed25519
 ````
-Lets download the key file from the tv and save it into `/root/.ssh`
+6. Lets download the key file from the tv and save it into `/root/.ssh`
 ````shell
 wget -O /root/.ssh/tv_webos http://10.0.0.40:9991/webos_rsa
 ````
-Make both files executable. It is important only root can read these files.
+7. Make both files executable. It is important only root can read these files.
 ````shell
 chmod 600 /root/.ssh/config
 chmod 600 /root/.ssh/tv_webos
 ````
-Remove the password protection on `tv_webos` so we can use the key without having to type the password you wrote down from Dev Mode on the TV.
+8. Remove the password protection on `tv_webos` so we can use the key without having to type the password you wrote down from Dev Mode on the TV.
 ````shell
 cd /root/.ssh/
 cp tv_webos tv_webos.backup   #always nice to have a backup, even though we can easily donwload it when keyserver is enabled
@@ -74,5 +74,6 @@ Enter new passphrase (empty for no passphrase):
 Enter same passphrase again: 
 Your identification has been saved with the new passphrase.
 ````
+The dev mode in the TV wont update somehow - most likely because of a bug i dno. But querying the timer on the URL shows the timer gets reset. Enjoy:)
 
 
